@@ -1,4 +1,4 @@
-# Hi, I'm Md Kamruzzaman 👋
+# Hi, I'm Md Kamruzzaman
 
 Python Backend Developer building production-ready REST APIs.
 

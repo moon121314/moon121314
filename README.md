@@ -42,7 +42,7 @@ Software engineer specializing in building production-ready REST APIs and deploy
 
 ## Featured Projects
 
-### [Minimal RAG API](https://github.com/moon121314/minimal-rag-api)
+### [Docu RAG API](https://github.com/moon121314/minimal-rag-api)
 A production-ready Generative AI pipeline allowing users to query custom PDF documents.
 - **Architecture:** FastAPI, LangChain, ChromaDB, Google Gemini API.
 - **Highlights:** Implemented semantic search and vector embeddings to prevent LLM hallucinations. Utilized LangChain Expression Language (LCEL) for robust pipeline chaining.

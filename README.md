@@ -1,66 +1,96 @@
-# Md Kamruzzaman
+# Md Kamruzzaman (Moon)
 
-### Python Backend & AI Engineer
+### Machine Learning Graduate | Python Backend Developer | AI & MLOps
 
-Software engineer specializing in building production-ready REST APIs and deploying end-to-end Machine Learning and Generative AI pipelines. Focused on clean architecture, automated testing, and bridging the gap between scalable backend systems and modern AI infrastructure.
+Machine Learning graduate focused on building Python backend applications and integrating Machine Learning and Generative AI into practical software systems. I build REST APIs with FastAPI, work with PostgreSQL, write automated tests, and deploy containerized applications.
+
+My goal is to bridge backend engineering and Machine Learning by building reliable applications and developing my skills in MLOps and production ML systems.
 
 ---
 
 ## Engineering Focus
 
-- **Backend Systems:** Designing asynchronous, scalable REST APIs using FastAPI and PostgreSQL.
-- **Generative AI (GenAI):** Building Retrieval-Augmented Generation (RAG) pipelines and integrating LLMs into production applications.
-- **MLOps & Infrastructure:** Containerizing applications, orchestrating deployments with Kubernetes, and implementing real-time model monitoring.
+- **Backend Engineering:** REST APIs, FastAPI, PostgreSQL, SQLAlchemy, and asynchronous Python.
+- **Machine Learning & AI:** ML prediction APIs, Retrieval-Augmented Generation (RAG), and LLM integration.
+- **MLOps & Infrastructure:** Docker, MLflow, CI/CD, monitoring, and Kubernetes fundamentals.
 
 ---
 
 ## Technical Stack
 
-**Languages & Frameworks**
-<br>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+**Languages & Backend**
 
-**AI & Machine Learning**
-<br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+
+**Machine Learning & Generative AI**
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF4B4B?style=flat-square)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 
-**DevOps & Infrastructure**
-<br>
+**DevOps, MLOps & Monitoring**
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
 ---
 
 ## Featured Projects
 
-### [Docu RAG API](https://github.com/moon121314/minimal-rag-api)
-A production-ready Generative AI pipeline allowing users to query custom PDF documents.
-- **Architecture:** FastAPI, LangChain, ChromaDB, Google Gemini API.
-- **Highlights:** Implemented semantic search and vector embeddings to prevent LLM hallucinations. Utilized LangChain Expression Language (LCEL) for robust pipeline chaining.
+### 1. [Factory Traffic Management System](https://github.com/moon121314/factory-traffic-management)
 
-### [ML Expense Platform](https://github.com/moon121314/ml-expense-platform)
-An end-to-end Machine Learning serving platform predicting expense categories from text.
-- **Architecture:** scikit-learn, MLflow, FastAPI, Kubernetes, Prometheus, Grafana.
-- **Highlights:** Tracked multiple MLflow experiments, deployed with K8s liveness/readiness probes, and implemented real-time metrics monitoring and data drift detection.
+A backend system for managing factory intersection traffic states and processing sensor events.
 
-### [Expense Tracker API](https://github.com/moon121314/expense-tracker)
-A secure, production-oriented REST API for personal expense tracking.
-- **Architecture:** FastAPI, PostgreSQL, SQLAlchemy, Alembic, JWT, Docker, GitHub Actions.
-- **Highlights:** Achieved 91% test coverage using pytest, implemented secure JWT authentication, and automated CI/CD pipelines.
+- **Stack:** Python, FastAPI, PostgreSQL, SQLAlchemy.
+- **Highlights:** Deterministic state transitions, sensor-event processing, database locking, and emergency-event handling.
+- **Live:** [API Documentation](https://factory-traffic-management-leeq.onrender.com/docs) | [Dashboard](https://factory-traffic-management-dashboard.onrender.com)
+
+### 2. [Expense Tracker API](https://github.com/moon121314/expense-tracker)
+
+A REST API for personal expense management with authentication and database-backed operations.
+
+- **Stack:** FastAPI, PostgreSQL, SQLAlchemy, Alembic, JWT, Docker.
+- **Highlights:** Secure authentication, expense CRUD, filtering, pagination, automated tests, and GitHub Actions CI.
+- **Live:** [API Documentation](https://expense-tracker-adds.onrender.com/docs)
+
+### 3. [ML Expense Platform](https://github.com/moon121314/ml-expense-platform)
+
+A Machine Learning API that predicts expense categories from text descriptions.
+
+- **Stack:** scikit-learn, FastAPI, MLflow, Docker, Prometheus, Grafana, Evidently.
+- **Highlights:** TF-IDF and Logistic Regression prediction, experiment tracking, monitoring, and data-drift detection.
+- **Live:** [API Documentation](https://ml-expense-platform.onrender.com/docs)
+
+### 4. [Docu RAG API](https://github.com/moon121314/docu-rag-api)
+
+A document question-answering application using Retrieval-Augmented Generation.
+
+- **Stack:** FastAPI, LangChain, ChromaDB, Google Gemini API.
+- **Highlights:** Document ingestion, vector search, and retrieval-based context for LLM-generated answers.
 
 ---
 
-## Contact
+## Current Learning Goals
 
-- **Portfolio:** [moon121314.github.io](https://moon121314.github.io)
-- **LinkedIn:** [in/kamruzzaman-moon](https://linkedin.com/in/kamruzzaman-moon-5a83281b7)
-- **Email:** kamruzzamanmoon13@gmail.com
+- Strengthening Python backend engineering and API design.
+- Improving automated testing, database design, and system design.
+- Learning cloud infrastructure and deployment practices.
+- Building reliable ML-powered applications and progressing toward MLOps engineering.
+
+---
+
+## Connect With Me
+
+- **Portfolio:** [moon121314.github.io](https://moon121314.github.io/)
+- **LinkedIn:** [Md Kamruzzaman](https://www.linkedin.com/in/kamruzzaman-moon-5a83281b7/)
+- **GitHub:** [moon121314](https://github.com/moon121314)
+- **Email:** [kamruzzamanmoon13@gmail.com](mailto:kamruzzamanmoon13@gmail.com)
